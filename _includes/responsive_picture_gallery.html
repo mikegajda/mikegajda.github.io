@@ -1,0 +1,25 @@
+<div class="swiper-slide">
+	<figure>
+		<picture>
+		<source media="(max-width: 608px)" sizes="(max-width: 1400px) 100vw, 1400px"
+		srcset="
+		https://res.cloudinary.com/mgajda/image/upload/c_scale,w_240/cdn/{{ include.slug }}.png 240w,
+		https://res.cloudinary.com/mgajda/image/upload/c_scale,w_836/cdn/{{ include.slug }}.png 836w,
+		https://res.cloudinary.com/mgajda/image/upload/c_scale,w_1185/cdn/{{ include.slug }}.png 1185w,
+		https://res.cloudinary.com/mgajda/image/upload/c_scale,w_1400/cdn/{{ include.slug }}.png 1400w">
+
+		<img
+		sizes="(max-width: 2333px) 100vw, 1400px"
+		srcset="
+		https://res.cloudinary.com/mgajda/image/upload/c_scale,w_596/cdn/{{ include.slug }}.png 596w,
+		https://res.cloudinary.com/mgajda/image/upload/c_scale,w_1027/cdn/{{ include.slug }}.png 1027w,
+		https://res.cloudinary.com/mgajda/image/upload/c_scale,w_1352/cdn/{{ include.slug }}.png 1352w,
+		https://res.cloudinary.com/mgajda/image/upload/c_scale,w_1400/cdn/{{ include.slug }}.png 1400w"
+		src="https://res.cloudinary.com/mgajda/image/upload/c_scale,w_1400/cdn/{{ include.slug }}.png"
+		alt="">
+		</picture>
+		<figcaption>
+			<em>{{ include.caption }}</em>
+		</figcaption>
+	</figure>
+</div>

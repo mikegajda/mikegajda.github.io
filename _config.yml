@@ -2,11 +2,22 @@
 permalink:           pretty
 
 # Setup
-title:               Mike Gajda
+title:               Mike Gajda's Blog
 tagline:             Keep on steering
 url:                 https://mikegajda.com
 paginate:            3
 baseurl:             ""
+
+description: I blog here occassinally about thigns I'm passionate about.
+twitter:
+  username: mikendever
+
+social:
+  name: Mike Gajda
+  links:
+    - https://twitter.com/mikendever
+    - https://www.linkedin.com/in/mgajda
+    - https://github.com/mikegajda
 
 # Assets
 #

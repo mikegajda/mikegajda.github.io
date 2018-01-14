@@ -1,10 +1,10 @@
 womens-march:
   images:
-    - name: "image 1"
-      path: _assets/images/womens_march/1.jpg
-    - name: "image 2"
-      path: _assets/images/womens_march/2.jpg
-    - name: "image 3"
-      path: _assets/images/womens_march/3.jpg
-    - name: "image 4"
-      path: _assets/images/womens_march/4.jpg
+    - caption: "Confront Intolerance"
+      slug: 2017-01-21-Boston-1
+    - caption: "My IUD Last Longer"
+      slug: 2017-01-21-Boston-2
+    - caption: "Make America Kind Again"
+      slug: 2017-01-21-Boston-3
+    - caption: "Women's Rights = Human Rights"
+      slug: 2017-01-21-Boston-4
