@@ -39,6 +39,18 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+collections:
+  drafts:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: drafts
+    values:
+      layout: draft
+
 
 
 
