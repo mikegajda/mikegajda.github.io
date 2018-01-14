@@ -1,0 +1,19 @@
+{% capture srcset %}
+    {% for i in resized %}
+        /{{ i.path }} {{ i.width }}w,
+    {% endfor %}
+{% endcapture %}
+
+{% assign smallest = resized | sort: 'width' | first %}
+
+{% if gallery == "true" %}
+<span>gallery</span>
+{% endif %}
+
+<div>
+	<img src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" sizes="(max-width: 38em) 100vw, (min-width: 38em) 700px">
+	{% assign stripped_caption = caption | strip %}
+	{% if stripped_caption != empty %}
+		<div class="image-caption">{{ caption }}</div>
+	{% endif %}
+</div>

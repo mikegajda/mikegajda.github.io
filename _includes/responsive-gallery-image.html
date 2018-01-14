@@ -1,0 +1,20 @@
+{% capture srcset %}
+    {% for i in resized %}
+        /{{ i.path }} {{ i.width }}w,
+    {% endfor %}
+{% endcapture %}
+
+{% assign smallest = resized | sort: 'width' | first %}
+
+{% if gallery == "true" %}
+<span>gallery</span>
+{% endif %}
+
+<div class="swiper-slide">
+	<img data-src="/{{ path }}" alt="{{ alt }}" data-srcset="{{ srcset | strip_newlines }}" sizes="(max-width: 38em) 100vw, (min-width: 38em) 700px" class="swiper-lazy">
+	<div class="swiper-lazy-preloader"></div>
+	{% assign stripped_caption = caption | strip %}
+	{% if stripped_caption != empty %}
+		<div class="image-caption">{{ caption }}</div>
+	{% endif %}
+</div>

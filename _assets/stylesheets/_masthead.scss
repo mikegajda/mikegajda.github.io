@@ -5,21 +5,30 @@
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
+  margin: auto;
   margin-bottom: 3rem;
+}
+
+.masthead-logo {
+  margin: auto;
+  width: 50px;
+  height: 50px;
 }
 
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: $gray-4;
+  color: #303030;
+  text-align: center;
 
   a {
     color: inherit;
   }
 
-  small {
+  .small {
     font-size: 75%;
     font-weight: 400;
     opacity: .5;
+    margin-top: -2px;
   }
 }

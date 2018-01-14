@@ -1,0 +1,10 @@
+womens-march:
+  images:
+    - name: "image 1"
+      path: _assets/images/womens_march/1.jpg
+    - name: "image 2"
+      path: _assets/images/womens_march/2.jpg
+    - name: "image 3"
+      path: _assets/images/womens_march/3.jpg
+    - name: "image 4"
+      path: _assets/images/womens_march/4.jpg
