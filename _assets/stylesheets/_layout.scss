@@ -52,9 +52,15 @@ div.swiper-pagination {
 		padding: 0;
 	}
 
-	h1, h2, h3, h4, h5, h6, article time, article p, article iframe, article blockquote {
+	h1, h2, h3, h4, h5, h6, article time, article p, article iframe{
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+
+	article blockquote {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 0 5px;
 	}
 
 	div.swiper-pagination, div.swiper-pagination-bullets {
