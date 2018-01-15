@@ -8,6 +8,15 @@ layout: default
   {{ content }}
 </article>
 
+{% if page.external-link %}
+  <small>
+    <a href="{{ site.baseurl }}{{ page.external-link }}">
+      <i class="fa fa-link" aria-hidden="true"></i>
+      External Link
+      </a>
+  </small>
+{% endif %}
+
 {% if site.related_posts != empty %}
 <aside class="related">
   <h3>Related posts</h3>
