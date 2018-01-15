@@ -44,11 +44,6 @@ collections:
   drafts:
     output: true
 
-feed:
-  path: atom.xml
-  
-url: https://mikegajda.com
-
 defaults:
   -
     scope:
