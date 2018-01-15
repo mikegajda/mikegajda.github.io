@@ -23,6 +23,11 @@ title: Home
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
     {{ post.content }}
+      {% if post.external-link %}
+        <small>
+          <a href="{{ site.baseurl }}{{ post.url }}">Permalink</a>
+        </small>
+      {% endif %}
   </article>
   {% endfor %}
 </div>
