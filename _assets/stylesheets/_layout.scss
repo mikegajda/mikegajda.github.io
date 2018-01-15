@@ -3,7 +3,7 @@
 // Styles for managing the structural hierarchy of the site.
 
 .container {
-  max-width: 38rem;
+  max-width: 900px;
   padding-left:  1.5rem;
   padding-right: 1.5rem;
   margin-left:  auto;
@@ -18,3 +18,46 @@ footer {
 figure {
   margin: 0;
 }
+
+main {
+	padding: 0 50px 0 50px;
+	overflow: hidden;
+}
+
+div.swiper-pagination {
+	display: none;
+}
+
+@media all and (min-width: 700px) and (max-width: 900px) { 
+	/* CSS rules here */
+	.container {
+	  padding-left:  0;
+	  padding-right: 0;
+	}
+	main {
+		padding: 0 50px 0 50px;
+		overflow: hidden;
+	}
+}
+
+@media all and  (max-width: 700px) { 
+	/* CSS rules here */
+	.container {
+		padding: 0;
+	}
+	main {
+		padding: 0;
+	}
+
+	h1, h2, h3, h4, h5, h6, time, p, iframe, blockquote {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	div.swiper-pagination, div.swiper-pagination-bullets {
+		display: block;
+		position: relative;
+		bottom: 5px;
+	}
+}
+
