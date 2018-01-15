@@ -32,12 +32,30 @@ github:
   repo:              https://github.com/poole/poole
 
 # Gems
-gems:
-  - jekyll-paginate
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  drafts:
+    output: true
+
+feed:
+  path: atom.xml
+  
+url: https://mikegajda.com
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: drafts
+    values:
+      layout: draft
 
 
 

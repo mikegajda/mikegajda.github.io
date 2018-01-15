@@ -7,14 +7,27 @@ title: Home
   {% for post in paginator.posts %}
   <article class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
+      {% if post.external-link %}
+        <a href="{{ site.baseurl }}{{ post.external-link }}">
+        <i class="fa fa-link" aria-hidden="true"></i>
         {{ post.title }}
       </a>
+      {% else %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+        </a>
+      {% endif %}
+      
     </h1>
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
     {{ post.content }}
+      {% if post.external-link %}
+        <small>
+          <a href="{{ site.baseurl }}{{ post.url }}">Permalink</a>
+        </small>
+      {% endif %}
   </article>
   {% endfor %}
 </div>

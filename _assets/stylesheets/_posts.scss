@@ -43,6 +43,23 @@ picture + figcaption {
 
 }
 
+div.swiper-container {
+  overflow: visible;
+}
+
+div.swiper-slide-next, div.swiper-slide-prev {
+  opacity: 0.33;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; // IE8
+  filter: alpha(opacity=50); // IE 5-7
+}
+
+
+div.swiper-button-prev {
+  left: -45px;
+}
+div.swiper-button-next {
+  right: -45px;
+}
 
 // Related posts
 .related {
