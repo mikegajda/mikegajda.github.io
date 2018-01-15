@@ -6,5 +6,3 @@ author: Mike Gajda
 ---
 
 {% include responsive_picture.html slug='2018-01-05-Dangerous-Snow' caption='Dangerous-Snow' %}
-
-Wow crazy snow on the roof today!
