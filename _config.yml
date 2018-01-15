@@ -34,6 +34,7 @@ github:
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
