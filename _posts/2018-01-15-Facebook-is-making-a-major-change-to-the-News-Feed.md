@@ -6,6 +6,7 @@ image: https://cdn.vox-cdn.com/thumbor/QrCiE3uSgRGcjV2fmAdNrvNEFRM=/0x0:3000x202
 description: Facebook said on Thursday that it will start to show users more posts from their friends and family in the News Feed, a move that means people will see fewer posts from publishers and brands.
 date: 2018-01-15 14:21:00 -0500
 --- 
+{% include response_picture.html slug=‘2017-04-29-Facebook-app-home screen.jpeg’ %}
 As my challenge for this month, I’ve deleted the Facebook app from my phone. Now, my only access is through the web, and the experience has been revitalizing. I didn’t realize how much time I spent aimlessly scrolling through the app. I think this is a step in the right direction, but I don’t know if Facebook will be able to pull it off.
 > Facebook said on Thursday that it will start to show users more posts from their friends and family in the News Feed, a move that means people will see fewer posts from publishers and brands.
 > 
