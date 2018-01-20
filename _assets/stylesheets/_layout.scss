@@ -38,6 +38,12 @@ main {
     position:absolute;
 }
 
+article blockquote {
+	margin-left: 0;
+	margin-right: 25px;
+	padding: 0 15px;
+}
+
 
 div.swiper-pagination {
 	display: none;
@@ -74,7 +80,7 @@ div.swiper-pagination {
 
 	article blockquote {
 		margin-left: 10px;
-		margin-right: 10px;
+		margin-right: 25px;
 		padding: 0 5px;
 	}
 
